@@ -1,5 +1,7 @@
 const inquirer = require('inquirer');
 
+//ask Jack if I can do the licenses as a const - should the licenses and questions be in separate files to keep things concise?
+
 const questions = [
     {
         type:'input',
@@ -57,3 +59,5 @@ const questions = [
         message:'Please enter your email address. (Required)',
     },
 ]
+
+inquirer.prompt()
