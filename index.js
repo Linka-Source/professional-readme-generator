@@ -1,10 +1,10 @@
 const inquirer = require('inquirer');
-// const fs = require('fs');
-
+const fs = require('fs');
+const template = require('./template')
 const questions = [
     {
         type:'input',
-        name:'project-title',
+        name:'projectTitle',
         message:'What is the title of your project? (Required)',
     },
 
@@ -59,9 +59,8 @@ const questions = [
     },
 ]
 
-inquirer.prompt(questions)
-// .then(function(answer){
-//     let answer=`${answer.name}`
-//     console.log(answer)
-
-// })
+inquirer.prompt(questions).then((answers) => {
+    fs.writeFile('README.md', template(answers), (err) => {
+        console.log("done");
+    });
+});
