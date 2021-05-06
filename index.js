@@ -60,7 +60,7 @@ const questions = [
 ]
 
 inquirer.prompt(questions).then((answers) => {
-    fs.writeFile('README.md', template(answers), (err) => {
+    fs.writeFile('DEMO_README.md', template(answers), (err) => {
         console.log("done");
     });
 });
