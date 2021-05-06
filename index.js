@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
-
-//ask Jack if I can do the licenses as a const - should the licenses and questions be in separate files to keep things concise?
+// const fs = require('fs');
 
 const questions = [
     {
@@ -16,7 +15,7 @@ const questions = [
     },
 
     {
-        type:'checkbox',
+        type:'list',
         name:'installation',
         message:'Is installation required to launch your project?',
         choices:['Yes', 'No'],
@@ -60,4 +59,9 @@ const questions = [
     },
 ]
 
-inquirer.prompt()
+inquirer.prompt(questions)
+// .then(function(answer){
+//     let answer=`${answer.name}`
+//     console.log(answer)
+
+// })
