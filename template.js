@@ -2,8 +2,9 @@ const template = function(answers)
 {
     console.log(answers);
     const temp = `# ${answers.projectTitle}`
-    const temp = `# ${answers.description}`
     return temp;
 }
 
 module.exports = template
+
+// + answers.description + answers.installation + answers.usage + answers.license + answers.contribution + answers.github + answers.email
