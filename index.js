@@ -31,11 +31,7 @@ const questions = [
         type:'list',
         name:'license',
         message:'Please choose a license for your project.',
-        choices:[
-        'MIT' [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT), 
-        'Mozilla-Public' [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0), 
-        'BSD' [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause), 
-        'Apache' [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)],
+        choices:['MIT', 'Mozilla-Public', 'BSD', 'Apache'],
     },
 
     {
