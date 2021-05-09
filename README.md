@@ -53,7 +53,7 @@ Please use thislink to view an example of the prompts and answers: https://drive
 ​ This project is licensed under the MIT license.
   
 ## Contributing
-​ Contributors to the project are welcome.
+​ Contributors to the project are welcome - please contact me at paulinka.koczwara@gmail.com.
 ​
 ​
 ## Tests
@@ -64,4 +64,4 @@ npm test
 ​
 ## Questions
 ​
-If you have any questions about the repo, open an issue or contact me directly at paulinka.koczwara@gmail.com. You can find more of my work at [f](https://github.com/Linka-Source/).
+If you have any questions about the repo, open an issue or contact me directly at paulinka.koczwara@gmail.com. You can find more of my work at https://github.com/Linka-Source/
